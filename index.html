@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Nelly Gogohounga</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="experiences.html">Experiences</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Projects Overview -->
+        <section class="projects-intro">
+            <img src="7S3A4310-2.jpg" alt="Nelly holding a camera">
+            <h2>PROJECTS</h2>
+            <p>
+                I have worked on a variety of projects that showcase my creativity, leadership, and passion for design and culture. From Photography to redesigning websites, my projects highlight my ability to blend aesthetics with functionality. I’ve also explored storytelling through multimedia, creating an audio documentary about fast fashion and a podcast on digital economies. Each project reflects my commitment to meaningful storytelling, cultural celebration, and innovative design solutions.
+            </p>
+        </section>
+
+        <!-- Photography Section -->
+        <section class="gallery">
+            <h3>Photography</h3>
+            <div class="grid">
+                <img src="6V1A0365.jpg" alt="Photography Image 1">
+                <img src="6V1A0346.jpg" alt="Photography Image 2">
+                <img src="6V1A0331.jpg" alt="Photography Image 3">
+                <img src="6V1A0553.jpg" alt="Photography Image 4">
+                <img src="6V1A0324.jpg" alt="Photography Image 5">
+                <img src="6V1A0522.jpg" alt="Photography Image 6">
+                <img src="IMG_2825.JPG" alt="Photography Image 7">
+                <img src="IMG_2824.JPG" alt="Photography Image 8">
+
+            </div>
+        </section>
+
+        <!-- Cinematography Section -->
+        <section class="gallery">
+            <h3>Cinematography</h3>
+            <div class="grid">
+                <video src="video1.mp4" controls></video>
+                <video src="video2.mp4" controls></video>
+                <video src="video3.mp4" controls></video>
+                <video src="video4.mp4" controls></video>
+            </div>
+        </section>
+
+        <!-- Graphic Design Section -->
+        <section class="gallery">
+            <h3>Graphic Design</h3>
+            <div class="grid">
+                <img src="design1.jpg" alt="Graphic Design 1">
+                <img src="design2.jpg" alt="Graphic Design 2">
+                <img src="Poster Design.png" alt="Graphic Design 3">
+                <img src="design4.jpg" alt="Graphic Design 4">
+            </div>
+        </section>
+    </main>
+</body>
+</html>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #fdfdfd;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.projects-intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.projects-intro img {
+    max-width: 150px;
+    border-radius: 20%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.projects-intro h2 {
+    font-size: 3opx;
+    color: #222;
+    margin: 10px 0;
+}
+
+.projects-intro p {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.gallery {
+    margin-bottom: 40px;
+}
+
+.gallery h3 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.grid img, .grid video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+</style>
